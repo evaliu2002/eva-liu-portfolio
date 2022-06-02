@@ -1,0 +1,48 @@
+.home {
+    font-family: "Open Sans", sans-serif;
+    /* background-image: url("file:///Users/evaliu/Documents/Projects/Portfolio/seattle-skyline-at-night-view-4k-se.jpeg"); */
+    /*background-image: url("file:///Users/evaliu/Documents/Projects/Portfolio/seattleSkyline.jpg");*/
+    background-size: cover;
+    color: mediumpurple;
+}
+
+.name{
+    text-align: center;
+    /*margin: 372px, 581px, 562px, 581px;*/
+}
+
+.edu-status {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: mediumpurple;
+}
+
+.main-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    outline:none;
+
+    /* background-color: transparent; */
+    border-radius: 1px;
+    border: 1px solid mediumpurple;
+    padding: 10px 10px;
+
+
+    /* background-color: none; */
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+    /* border-radius: 3px; */
+    color: mediumpurple;
+}
