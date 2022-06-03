@@ -1,10 +1,10 @@
 import React from 'react';
 import {Route, Routes} from "react-router";
-import {Home} from "./components/Home";
-import {Projects} from "./components/Projects";
-import Resume from "./components/Resume";
+import {Home} from "./sections/Home";
+import {Projects} from "./sections/Projects";
+import Resume from "./sections/WorkExp";
 import Games from "./components/Games";
-import ContactMe from "./components/ContactMe";
+import ContactMe from "./sections/GetInTouch";
 
 const App = () => {
   return (
